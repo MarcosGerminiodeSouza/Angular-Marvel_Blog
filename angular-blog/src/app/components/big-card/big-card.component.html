@@ -1,22 +1,18 @@
- <!-- Conteúdo mockado -->
+ <!-- photo-mock https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg-->
+
 <div class="container__big-card">
-  <div class="big-card__image">
-    <img
-     src="https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"
+  <div class="big-card__photo">
+    <a href="#"><img
+     src="{{ photoCover }}"
      alt=""
      srcset=""
-     >
+     ></a>
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versão do Angular: Angular V15</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
   <div class="big-card__description">
-    <p>
-      <a href="#">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo tempora nam, ea eligendi quas voluptatem.
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      </a>
-    </p>
+    <p><a href="#">{{ cardDescription }}</a></p>
   </div>
 </div>
 

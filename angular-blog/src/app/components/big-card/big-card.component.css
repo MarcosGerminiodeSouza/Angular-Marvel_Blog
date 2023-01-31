@@ -9,7 +9,7 @@
   align-items: flex-start;
 }
 
-.big-card__image > img {
+.big-card__photo > a > img {
   width: 100%;
   min-width: 500px;
   max-width: 500px;
