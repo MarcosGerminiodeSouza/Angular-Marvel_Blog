@@ -1,7 +1,7 @@
 .container__small-card {
   width: 600px;
   margin-top: 15px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .container__small-card-content {
@@ -9,17 +9,17 @@
   flex-direction: row;
 }
 
-.small-card__image > img{
-  width: 200px;
+.small-card__image > a > img {
   min-width: 200px;
-  margin-right: 20px;
-
+  width: 200px;
+  padding: 10px;
 }
 
 .small-card__title {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 20px;
 }
 
 .small-card__title > h1 {
