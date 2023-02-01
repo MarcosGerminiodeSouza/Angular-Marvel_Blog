@@ -3,3 +3,7 @@
   flex-direction: row;
   justify-content: center;
 }
+
+.articles__main {
+  border-right: 5px solid rgb(28, 21, 54);
+}
