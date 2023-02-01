@@ -9,9 +9,9 @@ export class BigCardComponent implements OnInit {
   @Input()
   photoCover:string = "https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"
   @Input()
-  cardTitle:string = "DÊ UM TITULO AO SEU BIG-CARD"
+  cardTitle:string = "ESSE TÍTULO É DINÂMICO"
   @Input()
-  cardDescription:string = "Dê uma descrição ao seu BIG-CARD"
+  cardDescription:string = "Descrição dinâmica. Fale mais sobre este card..."
   @Input()
   Id:string = "0"
 

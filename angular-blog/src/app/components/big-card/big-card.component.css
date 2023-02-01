@@ -1,7 +1,7 @@
 .container__big-card {
   margin-left: 20px;
-  margin-top: 15px;
-  margin-right: 20px;
+  margin-top: 10px;
+  margin-right: 60px;
   width: 500px;
   height: 500px;
   display: flex;
@@ -10,6 +10,8 @@
 }
 
 .big-card__photo > a > img {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
   width: 100%;
   min-width: 500px;
   max-width: 500px;
@@ -26,6 +28,7 @@
 .big-card__description {
   margin-top: 10px;
 }
+
 .big-card__description > p > a{
   color: grey;
 }
