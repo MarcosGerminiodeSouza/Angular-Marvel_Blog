@@ -1,9 +1,15 @@
+/* para editar: ir em app-component.css, em seguida header */
 .container__menu-bar >ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
 }
-
-.container__menu-bar >ul > li {
+.container__menu-bar > ul > li {
   margin-right: 20px;
   list-style: none;
+}
+
+.container__menu-bar {
+  font-size: 17px;
 }
