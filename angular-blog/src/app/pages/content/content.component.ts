@@ -8,26 +8,29 @@ import { dataFake } from '../../data/dataFake'
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  photoCover:string = "https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"
-  contentTitle:string = "TÍTULO DINÂMICO"
-  contentDescription:string = "Descrição dinâmica. ao escolher um de nossos cards ele aparecerá aqui"
-  private id:string  | null = "0"
+  photoCover:string = ""
+  contentTitle:string = ""
+  contentDescription:string = "ERRO: Por favor click em ''<< VOLTAR '' e escolha um card."
+  private id:string|null= "0"
 
-  constructor(private route:ActivatedRoute) { }
+  constructor(
+    private route:ActivatedRoute
+    ) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe( value =>
       this.id = value.get("id")
     )
+
+    this.setValuesToComponent(this.id)
   }
 
-  setValuesToComponent(id:string | null) {
-    const result = dataFake.filter(article => article.id == id)[0]
-    this.photoCover = result.photoCover
+  setValuesToComponent(id:string|null) {
+    const result = dataFake.filter( article => article.id == id)[0]
+
     this.contentTitle = result.title
     this.contentDescription = result.description
-
-
+    this.photoCover = result.photoCover
   }
 
 }
