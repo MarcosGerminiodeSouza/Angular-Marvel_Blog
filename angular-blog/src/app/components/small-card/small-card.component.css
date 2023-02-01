@@ -12,6 +12,7 @@
 .small-card__image > a > img {
   min-width: 200px;
   width: 200px;
+  height: 110px;
   padding: 10px;
 }
 
@@ -23,9 +24,9 @@
 }
 
 .small-card__title > h1 {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .container__small-card-separator {
-  margin-top: 10px;
+  margin-top: 2px;
 }

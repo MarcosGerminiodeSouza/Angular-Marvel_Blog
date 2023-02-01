@@ -7,10 +7,10 @@ import { Component,Input, OnInit } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
   @Input()
-  photoCover:string = ""
+  photoCover:string = "https://complianz.io/wp-content/uploads/2019/03/placeholder-300x202.jpg"
 
   @Input()
-  cardTitle:string = ""
+  cardTitle:string = "DEIXEI AQUI O SEU POST: CRIE UM SMALL-CARD "
 
   @Input()
   Id:string = "0"
