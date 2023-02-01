@@ -1,7 +1,7 @@
 .container__small-card {
   width: 600px;
-  margin-top: 15px;
-  margin-left: 20px;
+  border-bottom: 5px solid rgb(28, 21, 54);
+  border-right: 5px solid rgb(28, 21, 54);
 }
 
 .container__small-card-content {
@@ -10,10 +10,12 @@
 }
 
 .small-card__image > a > img {
+  margin: 15px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
   min-width: 200px;
   width: 200px;
   height: 110px;
-  padding: 10px;
 }
 
 .small-card__title {
@@ -25,8 +27,4 @@
 
 .small-card__title > h1 {
   font-size: 17px;
-}
-
-.container__small-card-separator {
-  margin-top: 2px;
 }
