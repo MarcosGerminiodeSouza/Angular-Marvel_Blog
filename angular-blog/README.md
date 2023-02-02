@@ -1,12 +1,4 @@
-# MARVEL BLOG
-
-Criei um blog baseado no universo da marvel.
-
-## Desafio DIO
-
-Este projeto é um desafio proposto na plataforma Digital Inovation One.
-
-## AngularBlog
+# AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
